@@ -8,7 +8,7 @@
     <link href="/2024/08/23/%E5%A4%B4%E6%AD%8Cpython/"/>
     <url>/2024/08/23/%E5%A4%B4%E6%AD%8Cpython/</url>
     
-    <content type="html"><![CDATA[<h1>第1关：行与缩进</h1><h2>任务描述</h2><b>本关任务：</b>改正代码中不正确的缩进，使其能够正常编译，并输出正确的结果。<h2>相关知识</h2><h3>缩进</h3>Python 与 C/C++、Java 这些 C 类语言不同，Python 使用缩进来表示代码块，缩进的空格数量可以由个人习惯决定，但同一个代码块的缩进空格数必须相同。<pre>if True:print("true")print("true")else:print("false")print("false");</pre>上面程序的 if 部分和 else 部分缩进不相同，但是在各自的代码块内缩进是相同的，所以是正确的程序。<pre>if True:print("true")print("true")</pre>这个程序的 if 部分缩进不相同，所以是错误的程序。<h3>多行语句</h3>Python 的代码一般是一行一条语句，语句之后的分号 ; 可加可不加。但如果要在一行中写多条语句，则需要用分号 ; 隔开每条语句。<pre>print("hello")print("world");print("hello");print("world")</pre>以上三行(四条语句)都是正确的。<h2>编程要求</h2>根据提示，改正右侧编辑器中代码的缩进错误，使其能够正确运行，并输出结果。<h2>测试说明</h2>改正后可得到以下输出：<pre>wrong1这里有一个错误缩进wrong2wrong3hello world</pre>开始你的任务吧，祝你成功！]]></content>
+    <content type="html"><![CDATA[<h1>第1关：行与缩进</h1><h2>任务描述</h2><b>本关任务：</b>改正代码中不正确的缩进，使其能够正常编译，并输出正确的结果。<h2>相关知识</h2><h3>缩进</h3>Python 与 C/C++、Java 这些 C 类语言不同，Python 使用缩进来表示代码块，缩进的空格数量可以由个人习惯决定，但同一个代码块的缩进空格数必须相同。<code>if True:print("true")print("true")else:print("false")print("false");</code>上面程序的 if 部分和 else 部分缩进不相同，但是在各自的代码块内缩进是相同的，所以是正确的程序。<pre><code class="hljs">if True:print("true")print("true")</code></pre>这个程序的 if 部分缩进不相同，所以是错误的程序。<h3>多行语句</h3>Python 的代码一般是一行一条语句，语句之后的分号 ; 可加可不加。但如果要在一行中写多条语句，则需要用分号 ; 隔开每条语句。<pre>print("hello")print("world");print("hello");print("world")</pre>以上三行(四条语句)都是正确的。<h2>编程要求</h2>根据提示，改正右侧编辑器中代码的缩进错误，使其能够正确运行，并输出结果。<h2>测试说明</h2>改正后可得到以下输出：<pre>wrong1这里有一个错误缩进wrong2wrong3hello world</pre>开始你的任务吧，祝你成功！]]></content>
     
     
     
