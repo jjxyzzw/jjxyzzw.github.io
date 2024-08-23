@@ -4,24 +4,11 @@
   
   
   <entry>
-    <title>python</title>
-    <link href="/2024/08/23/python/"/>
-    <url>/2024/08/23/python/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>头歌python</title>
     <link href="/2024/08/23/%E5%A4%B4%E6%AD%8Cpython/"/>
     <url>/2024/08/23/%E5%A4%B4%E6%AD%8Cpython/</url>
     
-    <content type="html"><![CDATA[<h1>第1关：行与缩进</h1><h2>任务描述</h2><b>本关任务：</b>改正代码中不正确的缩进，使其能够正常编译，并输出正确的结果。<h2>相关知识</h2><h3>缩进</h3>Python 与 C/C++、Java 这些 C 类语言不同，Python 使用缩进来表示代码块，缩进的空格数量可以由个人习惯决定，但同一个代码块的缩进空格数必须相同。<p>if True:<br>print(“true”)<br>print(“true”)<br>else:<br>print(“false”)<br>print(“false”);<br>上面程序的 if 部分和 else 部分缩进不相同，但是在各自的代码块内缩进是相同的，所以是正确的程序。</p><p>if True:<br>print(“true”)<br>print(“true”)<br>这个程序的 if 部分缩进不相同，所以是错误的程序。</p><p>多行语句<br>Python 的代码一般是一行一条语句，语句之后的分号 ; 可加可不加。但如果要在一行中写多条语句，则需要用分号 ; 隔开每条语句。</p><p>print(“hello”)<br>print(“world”);<br>print(“hello”);print(“world”)<br>以上三行(四条语句)都是正确的。</p><p>编程要求<br>根据提示，改正右侧编辑器中代码的缩进错误，使其能够正确运行，并输出结果。</p><p>测试说明<br>改正后可得到以下输出：<br>wrong1<br>这里有一个错误缩进<br>wrong2<br>wrong3<br>hello world</p><p>开始你的任务吧，祝你成功！</p>]]></content>
+    <content type="html"><![CDATA[<h1>第1关：行与缩进</h1><h2>任务描述</h2><b>本关任务：</b>改正代码中不正确的缩进，使其能够正常编译，并输出正确的结果。<h2>相关知识</h2><h3>缩进</h3>Python 与 C/C++、Java 这些 C 类语言不同，Python 使用缩进来表示代码块，缩进的空格数量可以由个人习惯决定，但同一个代码块的缩进空格数必须相同。<pre>if True:print("true")print("true")else:print("false")print("false");</pre>上面程序的 if 部分和 else 部分缩进不相同，但是在各自的代码块内缩进是相同的，所以是正确的程序。<pre>if True:print("true")print("true")</pre>这个程序的 if 部分缩进不相同，所以是错误的程序。<h3>多行语句</h3>Python 的代码一般是一行一条语句，语句之后的分号 ; 可加可不加。但如果要在一行中写多条语句，则需要用分号 ; 隔开每条语句。<pre>print("hello")print("world");print("hello");print("world")</pre>以上三行(四条语句)都是正确的。<h2>编程要求</h2>根据提示，改正右侧编辑器中代码的缩进错误，使其能够正确运行，并输出结果。<h2>测试说明</h2>改正后可得到以下输出：<pre>wrong1这里有一个错误缩进wrong2wrong3hello world</pre>开始你的任务吧，祝你成功！]]></content>
     
     
     
@@ -30,19 +17,6 @@
       <tag>python</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/2024/08/23/hello-world/"/>
-    <url>/2024/08/23/hello-world/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
     
   </entry>
   
