@@ -30,7 +30,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/python01.jpg">
 <meta property="article:published_time" content="2024-08-23T08:28:50.000Z">
-<meta property="article:modified_time" content="2024-08-23T10:51:54.729Z">
+<meta property="article:modified_time" content="2024-08-23T11:46:18.085Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary_large_image">
@@ -70,6 +70,10 @@
     <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
+
+
+  
+<link rel="stylesheet" href="/css/macpanel.css">
 
 
 
@@ -227,7 +231,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          325 字
+          409 字
         
       </span>
     
@@ -238,7 +242,7 @@
         
         
         
-          3 分钟
+          4 分钟
         
       </span>
     
@@ -280,30 +284,31 @@
             
               <div class="markdown-body">
                 
-                <h1>第1关：行与缩进</h1>
-<h2>任务描述</h2>
+                <h1>基础篇-初体验</h1>
+<h2>第1关：行与缩进</h2>
+<h3>任务描述</h3>
 <b>本关任务：</b>改正代码中不正确的缩进，使其能够正常编译，并输出正确的结果。
 
-<h2>相关知识</h2>
-<h3>缩进</h3>
+<h3>相关知识</h3>
+<h4>缩进</h4>
 Python 与 C/C++、Java 这些 C 类语言不同，Python 使用缩进来表示代码块，缩进的空格数量可以由个人习惯决定，但同一个代码块的缩进空格数必须相同。
-<code>
+<pre>
 if True:
 print("true")
 print("true")
 else:
 print("false")
 print("false");
-</code>
+</pre>
 上面程序的 if 部分和 else 部分缩进不相同，但是在各自的代码块内缩进是相同的，所以是正确的程序。
-<pre><code class="hljs">
+<pre>
 if True:
 print("true")
 print("true")
-</code></pre>
+</pre>
 这个程序的 if 部分缩进不相同，所以是错误的程序。
 
-<h3>多行语句</h3>
+<h4>多行语句</h4>
 Python 的代码一般是一行一条语句，语句之后的分号 ; 可加可不加。但如果要在一行中写多条语句，则需要用分号 ; 隔开每条语句。
 <pre>
 print("hello")
@@ -312,10 +317,10 @@ print("hello");print("world")
 </pre>
 以上三行(四条语句)都是正确的。
 
-<h2>编程要求</h2>
+<h3>编程要求</h3>
 根据提示，改正右侧编辑器中代码的缩进错误，使其能够正确运行，并输出结果。
 
-<h2>测试说明</h2>
+<h3>测试说明</h3>
 改正后可得到以下输出：
 <pre>
 wrong1
@@ -325,6 +330,33 @@ wrong3
 hello world
 </pre>
 开始你的任务吧，祝你成功！
+
+
+<pre>
+#有错误的函数1
+def wrong1():
+    print("wrong1")
+    print("这里有一个错误缩进")
+    
+#有错误的函数2
+def wrong2():
+    print("wrong2")
+    if False:
+        print("这个不应该输出")
+        print("这个也不应该输出")
+
+#有错误的函数3
+def wrong3():
+    print("wrong3"); print("hello world")
+
+
+#这里是调用三个函数的代码
+#不要修改
+if __name__ == '__main__':
+    wrong1()
+    wrong2()
+    wrong3()
+</pre>
                 
               </div>
             
