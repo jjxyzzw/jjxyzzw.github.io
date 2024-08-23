@@ -18,27 +18,24 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="ZZW">
+  <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="本章为头歌平台的python学习记录，包括题目、答案以及自我理解">
+    <meta name="description" content="13245">
 <meta property="og:type" content="article">
-<meta property="og:title" content="头歌python">
+<meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/2024/08/23/%E5%A4%B4%E6%AD%8Cpython/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="本章为头歌平台的python学习记录，包括题目、答案以及自我理解">
+<meta property="og:description" content="13245">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/img/python01.jpg">
-<meta property="article:published_time" content="2024-08-23T08:28:50.000Z">
-<meta property="article:modified_time" content="2024-08-23T13:12:55.610Z">
+<meta property="article:published_time" content="2024-08-23T08:28:50.710Z">
+<meta property="article:modified_time" content="2024-08-23T13:17:26.851Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/img/python01.jpg">
   
   
   
-  <title>头歌python - Hexo</title>
+  <title>Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -204,7 +201,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="头歌python"></span>
+            <span id="subtitle" data-typed-text=""></span>
           
         </div>
 
@@ -227,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          914 字
+          1 字
         
       </span>
     
@@ -238,7 +235,7 @@
         
         
         
-          8 分钟
+          1 分钟
         
       </span>
     
@@ -275,46 +272,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">头歌python</h1>
+            <h1 id="seo-header"></h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="基础篇-初体验"><a href="#基础篇-初体验" class="headerlink" title="基础篇-初体验"></a>基础篇-初体验</h1><h2 id="第1关：行与缩进"><a href="#第1关：行与缩进" class="headerlink" title="第1关：行与缩进"></a>第1关：行与缩进</h2><h3 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h3><p><strong>本关任务：</strong> 改正代码中不正确的缩进，使其能够正常编译，并输出正确的结果。</p>
-<h3 id="相关知识"><a href="#相关知识" class="headerlink" title="相关知识"></a>相关知识</h3><h4 id="缩进"><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h4><p>Python 与 C&#x2F;C++、Java 这些 C 类语言不同，Python 使用缩进来表示代码块，缩进的空格数量可以由个人习惯决定，但同一个代码块的缩进空格数必须相同。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">if</span> <span class="hljs-literal">True</span>:<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;true&quot;</span>)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;true&quot;</span>)<br><span class="hljs-keyword">else</span>:<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;false&quot;</span>)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;false&quot;</span>);<br></code></pre></td></tr></table></figure>
-<p>上面程序的 if 部分和 else 部分缩进不相同，但是在各自的代码块内缩进是相同的，所以是正确的程序。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">if</span> <span class="hljs-literal">True</span>:<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;true&quot;</span>)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;true&quot;</span>)<br></code></pre></td></tr></table></figure>
-<p>这个程序的 if 部分缩进不相同，所以是错误的程序。</p>
-<h4 id="多行语句"><a href="#多行语句" class="headerlink" title="多行语句"></a>多行语句</h4><p>Python 的代码一般是一行一条语句，语句之后的分号 ; 可加可不加。但如果要在一行中写多条语句，则需要用分号 ; 隔开每条语句。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;hello&quot;</span>)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;world&quot;</span>);<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;hello&quot;</span>);<span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;world&quot;</span>)<br></code></pre></td></tr></table></figure>
-<p>以上三行(四条语句)都是正确的。</p>
-<h3 id="编程要求"><a href="#编程要求" class="headerlink" title="编程要求"></a>编程要求</h3><p>根据提示，改正右侧编辑器中代码的缩进错误，使其能够正确运行，并输出结果。</p>
-<h3 id="测试说明"><a href="#测试说明" class="headerlink" title="测试说明"></a>测试说明</h3><p>改正后可得到以下输出：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python">wrong1<br>这里有一个错误缩进<br>wrong2<br>wrong3<br>hello world<br></code></pre></td></tr></table></figure>
-<p>开始你的任务吧，祝你成功！</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment">#有错误的函数1</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">wrong1</span>():<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;wrong1&quot;</span>)<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;这里有一个错误缩进&quot;</span>)<br>    <br><span class="hljs-comment">#有错误的函数2</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">wrong2</span>():<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;wrong2&quot;</span>)<br>    <span class="hljs-keyword">if</span> <span class="hljs-literal">False</span>:<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;这个不应该输出&quot;</span>)<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;这个也不应该输出&quot;</span>)<br><br><span class="hljs-comment">#有错误的函数3</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">wrong3</span>():<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;wrong3&quot;</span>); <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;hello world&quot;</span>)<br><br><br><span class="hljs-comment">#这里是调用三个函数的代码</span><br><span class="hljs-comment">#不要修改</span><br><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&#x27;__main__&#x27;</span>:<br>    wrong1()<br>    wrong2()<br>    wrong3()<br></code></pre></td></tr></table></figure>
-
-<h2 id="第2关：标识符与保留字"><a href="#第2关：标识符与保留字" class="headerlink" title="第2关：标识符与保留字"></a>第2关：标识符与保留字</h2><h3 id="任务描述-1"><a href="#任务描述-1" class="headerlink" title="任务描述"></a>任务描述</h3><p><strong>本关任务：</strong> 改正程序中的错误，并输出 Python3 的所有保留字。</p>
-<h3 id="相关知识-1"><a href="#相关知识-1" class="headerlink" title="相关知识"></a>相关知识</h3><h4 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h4><p>标识符就是程序中，使用的各种名称，例如：变量名、常量名、类名等等。</p>
-<p>在 Python 中，对标识符格式的要求与 C/C++、Java 等差不多：</p>
-
-<ul>
-<li>第一个字符必须是字母表中的字母或下划线 _ ；</p></li>
-<li>标识符的其他的部分，由字母、数字和下划线组成；</p></li>
-<li>标识符对大小写敏感；</p></li>
-<li>标识符不能与保留字相同。</p><p>比如：</p></li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python">num1 = <span class="hljs-number">1</span><br>float1 = <span class="hljs-number">0.5</span><br>true = <span class="hljs-literal">True</span> <span class="hljs-comment">#这个 true 虽然字面上的意思与值“True”相同，但 python 对大小写敏感，所以也是正确的</span><br>str1 = <span class="hljs-string">&quot;hello&quot;</span><br></code></pre></td></tr></table></figure>
-<p>这些都是正确的标识符。</p>
-<p>而：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">1value = <span class="hljs-number">1</span> <span class="hljs-comment">#开头不能是数字</span><br>value0<span class="hljs-number">.1</span> = <span class="hljs-number">0.1</span> <span class="hljs-comment">#标识符中间只能是数字，字母，下划线</span><br><span class="hljs-keyword">if</span> = <span class="hljs-literal">True</span> <span class="hljs-comment">#与保留字if重名</span><br></code></pre></td></tr></table></figure>
-<p>都是不正确的标识符。</p>
-<h4 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h4><p>保留字即关键字，是 Python 语言中内部使用的单词，代表一定语义。<br>例如：and、class、if、else 等。保留字不能作为标识符，用在变量名、常量名、类名等地方。<br>Python 的标准库提供了一个 keyword 模块，可以输出当前版本的所有关键字：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> keyword<br><span class="hljs-built_in">print</span>(keyword.kwlist)<br></code></pre></td></tr></table></figure>
-<p>输出:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python">[<span class="hljs-string">&#x27;False&#x27;</span>, <span class="hljs-string">&#x27;None&#x27;</span>, <span class="hljs-string">&#x27;True&#x27;</span>, <span class="hljs-string">&#x27;and&#x27;</span>, <span class="hljs-string">&#x27;as&#x27;</span>, <span class="hljs-string">&#x27;assert&#x27;</span>, <span class="hljs-string">&#x27;break&#x27;</span>, <span class="hljs-string">&#x27;class&#x27;</span>, <span class="hljs-string">&#x27;continue&#x27;</span>, <span class="hljs-string">&#x27;def&#x27;</span>, <span class="hljs-string">&#x27;del&#x27;</span>, <span class="hljs-string">&#x27;elif&#x27;</span>, <span class="hljs-string">&#x27;else&#x27;</span>, <span class="hljs-string">&#x27;except&#x27;</span>, <span class="hljs-string">&#x27;finally&#x27;</span>, <span class="hljs-string">&#x27;for&#x27;</span>, <span class="hljs-string">&#x27;from&#x27;</span>, <span class="hljs-string">&#x27;global&#x27;</span>, <span class="hljs-string">&#x27;if&#x27;</span>, <span class="hljs-string">&#x27;import&#x27;</span>, <span class="hljs-string">&#x27;in&#x27;</span>, <span class="hljs-string">&#x27;is&#x27;</span>, <span class="hljs-string">&#x27;lambda&#x27;</span>, <span class="hljs-string">&#x27;nonlocal&#x27;</span>, <span class="hljs-string">&#x27;not&#x27;</span>, <span class="hljs-string">&#x27;or&#x27;</span>, <span class="hljs-string">&#x27;pass&#x27;</span>, <span class="hljs-string">&#x27;raise&#x27;</span>, <span class="hljs-string">&#x27;return&#x27;</span>, <span class="hljs-string">&#x27;try&#x27;</span>, <span class="hljs-string">&#x27;while&#x27;</span>, <span class="hljs-string">&#x27;with&#x27;</span>, <span class="hljs-string">&#x27;yield&#x27;</span>]<br></code></pre></td></tr></table></figure>
-<h3 id="编程要求-1"><a href="#编程要求-1" class="headerlink" title="编程要求"></a>编程要求</h3><p>根据提示，改正右侧编辑器的代码，并输出 Python3 的所有保留字。<br>1<br>1<br>1<br>2222<br>1<br>2<br>2<br>2</p>
+                <p>13245</p>
 
                 
               </div>
@@ -324,13 +287,6 @@
               <div class="post-metas my-3">
   
   
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/python/" class="print-no-link">#python</a>
-      
-    </div>
-  
 </div>
 
 
@@ -339,14 +295,14 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>头歌python</div>
+      <div></div>
       <div>http://example.com/2024/08/23/头歌python/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>ZZW</div>
+          <div>John Doe</div>
         </div>
       
       
